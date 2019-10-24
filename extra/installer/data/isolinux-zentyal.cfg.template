@@ -1,15 +1,15 @@
 default install
 label install
   menu label ^Install Zentyal VERSION (delete all disk)
-  kernel /install/vmlinuz
+  kernel /install/vmlinuz-5.0.0-32-generic
   append  console-setup/ask_detect=false file=/cdrom/preseed/ubuntu-server-auto.seed vga=788 initrd=/install/initrd.gz ipv6.disable=1 net.ifnames=0 biosdevname=0 quiet ---
 label expert
   menu label ^Install Zentyal VERSION (expert mode)
-  kernel /install/vmlinuz
+  kernel /install/vmlinuz-5.0.0-32-generic
   append  file=/cdrom/preseed/ubuntu-server.seed vga=788 initrd=/install/initrd.gz ipv6.disable=1 net.ifnames=0 biosdevname=0 quiet ---
 label check
   menu label ^Check disc for defects
-  kernel /install/vmlinuz
+  kernel /install/vmlinuz-5.0.0-32-generic
   append  MENU=/bin/cdrom-checker-menu vga=788 initrd=/install/initrd.gz quiet ---
 LABEL memtest
   menu label Test ^memory
