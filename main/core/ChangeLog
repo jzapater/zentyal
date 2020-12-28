@@ -1,6 +1,8 @@
 HEAD
 	+ Remove deprecated ssl on in favor of listen ssl
 	+ Increase default rsa key length to 4096
+6.2.5
+	+ Fix configuration report date
 6.2.4
 	+ Prevent to use more than one trial license at the same machine
 	+ Fix UCP API response handler
