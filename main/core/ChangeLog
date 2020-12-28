@@ -1,7 +1,6 @@
-7.0.0
+HEAD
 	+ Remove deprecated ssl on in favor of listen ssl
 	+ Increase default rsa key length to 4096
-	+ Set version number to 7.0.0
 6.2.4
 	+ Prevent to use more than one trial license at the same machine
 	+ Fix UCP API response handler
