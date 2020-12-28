@@ -1,4 +1,4 @@
-HEAD
+7.0.0
 	+ Remove deprecated ssl on in favor of listen ssl
 	+ Increase default rsa key length to 4096
 6.2.5
