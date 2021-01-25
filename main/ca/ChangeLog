@@ -1,4 +1,4 @@
-HEAD
+7.0.0
 	+ Fix deprecated openssl dependency
 6.2.1
 	+ Fix SSL configuration conflicts between CA and Virt modules
